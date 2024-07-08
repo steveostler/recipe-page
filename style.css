@@ -56,6 +56,13 @@ body{
     margin: 2rem 0;
     background-color: var(--neutral-rose-white);
     padding:1.5rem;
+   
+}
+
+.prep-box p{
+    font-size: 1.25rem;
+    color:var(--primary-dark-raspberry);
+    font-weight: 700;
 }
 
 .information{
@@ -81,32 +88,26 @@ body{
 }
 
 .information table tr:not(:last-child){
-    display: block;
+
     width: 100%;
     border-bottom:1px solid var(--neutral-eggshell); 
 }
 
-.recipe article .nutrition{
-    list-style-type: none;
-    padding: 0;
-    
+table {
+    width: 100%;
 }
 
-.recipe article .nutrition li{
-    display: flex;
-    padding-left: 0px;
-    justify-content: space-evenly;
-    border-bottom: 1px solid var(--neutral-light-grey);
-    padding: 0.5rem 0;
+tr td{
+padding: 1rem 1rem 1rem 2.5rem;
 }
 
-.recipe article .nutrition li:last-child{
-    border-bottom: none;
+tr:not(:last-child) td{
+border-bottom: 1px solid var(--neutral-eggshell); /* You can change the color */
 }
 
-.recipe article .nutrition li span{
-    font-weight: 700;
-    color:var(--neutral-wenge-brown)
+.td__value {
+font-weight: 700;
+color: var(--primary-nutmeg);
 }
 
 
